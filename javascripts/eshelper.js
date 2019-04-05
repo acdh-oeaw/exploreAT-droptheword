@@ -1,12 +1,9 @@
-function getToken() {
-    return localStorage.getItem('token');
-}
-
 function getESHost() {
     if(window.location.href.indexOf('https') == 0) {
-        return 'https://exploreat.usal.es/elasticsearch';
+        return 'https://exploreat-esearch2.acdh-dev.oeaw.ac.at';
     } else {
-        return 'http:\/\/localhost:9200'
+        return 'http://exploreat-esearch2.acdh-dev.oeaw.ac.at'
     }
 }
+
 
